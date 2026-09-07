@@ -51,7 +51,7 @@ pipeline {
         stage('Deploy to Production') {
             steps {
                 echo 'Task: Deploy the tested application to the production environment.'
-                ehco 'Tool: AWS CLI / AWS EC2'
+                echo 'Tool: AWS CLI / AWS EC2'
             }
         }
     }
